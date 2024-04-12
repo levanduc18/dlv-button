@@ -10,7 +10,7 @@ Các bước để publish 1 npm lên server npm (nếu cần):
 - Step 2: npm publish --access public.
 ```
 
-### MVC project
+## MVC project
 
 ```
 Github link: https://github.com/levanduc18/mvc-test-library
@@ -22,7 +22,7 @@ Các bước chạy project:
 
 ```
 
-#### Vue project
+## Vue project
 
 ```
 Github link: https://github.com/levanduc18/vue-test-library
@@ -34,6 +34,8 @@ Các bước chạy project:
 
 ```
 
-```
+## Giải thích
 
+```
+Thử nghiệm package tạo từ vue-cli publish lên npm có tên dlv-button và import vào 2 dự án chạy vue và mvc, ta thấy cả 2 đều có button màu xanh và handle được event click.
 ```
