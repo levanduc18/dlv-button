@@ -1,16 +1,16 @@
 {
-  "name": "test-vue-button",
-  "version": "1.0.0",
-  "private": true,
-  "description": "",
-  "author": "",
+  "name": "dlv-button",
+  "version": "0.1.4",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:l": "vue-cli-service build --target lib --name dlv-button ./src/index.js",
+    "lint": "vue-cli-service lint"
   },
-  "main": "nuxt.js",
+  "main": "./dist/dlv-button.common.js",
+  "module": "./dist/dlv-button.umd.min.js",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
@@ -24,9 +24,6 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "vue-template-compiler": "^2.6.14"
-  },
-  "peerDependencies": {
-    "nuxt3": "latest"
   },
   "eslintConfig": {
     "root": true,
@@ -46,8 +43,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "_id": "test-vue-button@1.0.0",
-  "license": "ISC",
-  "readme": "ERROR: No README data found!"
+  ]
 }

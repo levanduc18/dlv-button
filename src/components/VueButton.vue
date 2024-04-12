@@ -1,14 +1,14 @@
 <template>
-  <button class="button">{{ label }}</button>
+  <button class="button" @click="onClick">
+    <slot></slot>
+  </button>
 </template>
 <script>
 export default {
   name: "VueButton",
-  props: {
-    label: {
-      type: String,
-      default: "",
-      required: true,
+  methods: {
+    onClick() {
+      this.$emit("click");
     },
   },
 };

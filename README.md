@@ -1,24 +1,13 @@
 # test-vue-button
 
 ## Project setup
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
 ### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
 ```
-yarn lint
+yarn build:l
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
