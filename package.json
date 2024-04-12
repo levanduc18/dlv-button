@@ -1,6 +1,6 @@
 {
   "name": "dlv-button",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:l": "vue-cli-service build --target lib --name dlv-button ./src/index.js",
